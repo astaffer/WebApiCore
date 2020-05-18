@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\WAC.Models.csproj" />
+    <ProjectReference Include="..\Repository\WAC.Repository.csproj" />
+    <ProjectReference Include="..\Rest\WAC.Rest.csproj" />
+  </ItemGroup>
+
+</Project>
